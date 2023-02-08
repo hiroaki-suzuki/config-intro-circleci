@@ -42,7 +42,7 @@ workflows:
   Example-Workflow:
     jobs:
       - Hello-World
-      - Fetch-Code
+      - Fetch-Code:
           requires:
             - Hello-World
       - Using-Node:
